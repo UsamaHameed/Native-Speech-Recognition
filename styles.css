@@ -1,0 +1,32 @@
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  background: #3F51B5;
+  min-height: 100vh;
+}
+.heading {
+  text-align: center;
+  font-size: 40px;
+}
+.page {
+  margin: 50px auto;
+  min-width: 200px;
+  max-width: 70vw;
+  background: white;
+  border: 10px solid #009688;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.0.2);
+}
+p {
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  padding: 0.5em;
+  margin: 0;
+}
+p:last-child {
+  border: none;
+}
